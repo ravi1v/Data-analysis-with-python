@@ -38,19 +38,24 @@ Verify installation:
 python --version
 # or on some systems
 python3 --version
-
+```
 2️⃣ Install Jupyter and Data Analysis Packages
 
-Install the core packages:
+Install the core packages (using line continuation for readability):
 
-pip install jupyter numpy pandas matplotlib seaborn scipy
+```bash
+pip install jupyter \
+numpy \
+pandas \
+matplotlib \
+seaborn \
+scipy
+```
 
-
-Optional packages for extended analysis:
-
-pip install scikit-learn statsmodels plotly openpyxl xlrd sqlalchemy
 3️⃣ Running Notebooks
 
 Start Jupyter Notebook:
 
+```bash
 jupyter notebook
+```
